@@ -1,0 +1,9 @@
+name: Spinjitzu
+version: '${project.version}'
+main: me.thundercaster.spinjitzu.Spinjitzu
+api-version: 1.16
+authors: [ Thundercaster ]
+description: Spinjitzu plugin from ninja go
+commands:
+  spinjitzu:
+    -description: 'p cool'
