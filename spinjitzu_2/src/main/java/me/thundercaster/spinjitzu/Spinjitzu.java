@@ -7,6 +7,9 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.*;
 
 public final class Spinjitzu extends JavaPlugin {
+    
+    //Credit to Adelemphii for helping a lot with BukkitRunnables and classes to solve the problems encountered with the plugin.
+    //A personal thank you :)
     private Map<UUID, BukkitRunnable> playerRunnables = new HashMap<>();
 
     private static Spinjitzu plugin;
